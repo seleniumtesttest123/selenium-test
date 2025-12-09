@@ -44,3 +44,18 @@ for r in range(2, noofrows + 1):
 
 time.sleep(5)
 driver.close()
+
+
+
+# target_value="Mukesh"
+# found = False
+# for r in rows:
+#     for c in columns:
+#         if target_value in c.text:
+#             print(r,c)
+#             found = True
+#             break
+#     if found:
+#         break
+# if not found:
+#     print("Target value not found in the table")

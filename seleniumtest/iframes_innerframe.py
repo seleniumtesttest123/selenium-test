@@ -24,3 +24,7 @@ driver.find_element(By.XPATH, "//input[@type='text']").send_keys("welcome")
 # driver.switch_to.parent_frame()
 
 time.sleep(5)
+
+
+# driver.switch_to.default_content()
+# driver.switch_to.parent_frame()

@@ -21,3 +21,19 @@ driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 driver.switch_to.new_window("window")
 driver.get("https://money.rediff.com/gainers/bse/daily/groupa")
 time.sleep(5)
+
+
+
+# current_tab = browser.current_window_handle
+# print(current_tab)
+
+# all_tabs = browser.window_handles
+# print(all_tabs)
+
+# browser.switch_to.window(all_tabs[0])
+# browser.switch_to.window(all_tabs[1])
+# first_tab = browser.switch_to.window(all_tabs[0])
+# if current_tab != first_tab:
+#     browser.switch_to.window(current_tab)
+#     browser.close()
+#     browser.switch_to.window(first_tab)
