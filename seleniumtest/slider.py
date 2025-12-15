@@ -22,3 +22,8 @@ act.drag_and_drop_by_offset(max, -50, 0).perform()
 print(f"after moving  min : {min.location}  max : {max.location}  ")
 
 time.sleep(5)
+
+
+
+# slider = driver.find_element(By.XPATH, "//span[1]")
+# act.click_and_hold(slider).move_by_offset(100, 0).release().perform()
